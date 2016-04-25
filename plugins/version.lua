@@ -21,7 +21,7 @@ end
 
 return {
   patterns = {
-    "^#version$"
+    "^[!/#]version$"
   }, 
   run = run 
 }
